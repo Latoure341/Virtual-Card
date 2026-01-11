@@ -17,6 +17,16 @@ body {
 p {
     font-size: medium;
 }
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    font-size: large;
+    outline:2px;
+    outline-color: white;
+    transition: 0.9s;
+}
 .socials {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -43,4 +53,5 @@ p {
     background-color: grey;
     color: white;
     transition: 0.9s;
+    cursor: pointer;
 }
